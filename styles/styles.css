@@ -684,7 +684,7 @@ p.cta a {
 }
 
 .connector {
-  height: 14rem;
+  height: 16em;
   width: 1px;
   background-color: var(--color-grey1-5);
   position: absolute;
