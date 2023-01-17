@@ -2681,6 +2681,9 @@ h3.subtitle {
     grid-gap: 3rem;
     font-size: 1.6rem;
   }
+  #contact header {
+    padding: auto 24px !important;
+  }
 }
 
 @media screen and (max-width: 930px) {
