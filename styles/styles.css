@@ -334,8 +334,8 @@ section .container {
 }
 
 .header-content .person__container:hover .person__img {
-  -webkit-transform: scale(1.1) translateY(-0.6rem);
-          transform: scale(1.1) translateY(-0.6rem);
+  -webkit-transform: scale(1.1) translateY(-0.3rem);
+          transform: scale(1.1) translateY(-0.3rem);
   -webkit-transition: -webkit-transform 200ms ease-in-out;
   transition: -webkit-transform 200ms ease-in-out;
   transition: transform 200ms ease-in-out;
@@ -2562,16 +2562,16 @@ h3.subtitle {
     margin: 1em 2em 1em 0;
   }
   .header-content .content h1 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin: 0;
   }
   .header-content .content h1 ruby.name {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .header-content .content p.intro {
     padding: 0;
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.4;
   }
   .header-content .content .hero-cta {
@@ -2688,6 +2688,9 @@ h3.subtitle {
 @media screen and (max-width: 930px) {
   .connector {
     left: 9px;
+  }
+  .catch span {
+    display: block;
   }
 }
 /*# sourceMappingURL=styles.css.map */
