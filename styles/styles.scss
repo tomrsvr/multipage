@@ -106,6 +106,23 @@ a {
     font-family: inherit;
 }
   
+
+
+
+h3.catch {
+  opacity: 0;
+  transition: animation .5s ease;
+  animation: fadeIn .5s .4s forwards;
+  -webkit-animation: fadeIn .5s .4s forwards;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+
 header {
     color: var(--color-grey5);
     overflow: hidden;
