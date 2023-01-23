@@ -107,14 +107,17 @@ a {
 }
   
 
-
-
-h3.catch {
+.anix {
   opacity: 0;
-  transition: animation .5s ease;
+  transition: animation 3.5s ease;
   animation: fadeIn .5s .4s forwards;
   -webkit-animation: fadeIn .5s .4s forwards;
 }
+
+.ani1 { animation-delay: 300ms; }
+.ani2 { animation-delay: 300ms; }
+.ani3 { animation-delay: 600ms; }
+.ani4 { animation-delay: 700ms; }
 
 @keyframes fadeIn {
   100% {

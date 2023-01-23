@@ -109,14 +109,34 @@ a {
   font-family: inherit;
 }
 
-h3.catch {
+.anix {
   opacity: 0;
-  -webkit-transition: -webkit-animation .5s ease;
-  transition: -webkit-animation .5s ease;
-  transition: animation .5s ease;
-  transition: animation .5s ease, -webkit-animation .5s ease;
+  -webkit-transition: -webkit-animation 3.5s ease;
+  transition: -webkit-animation 3.5s ease;
+  transition: animation 3.5s ease;
+  transition: animation 3.5s ease, -webkit-animation 3.5s ease;
   animation: fadeIn .5s .4s forwards;
   -webkit-animation: fadeIn .5s .4s forwards;
+}
+
+.ani1 {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+
+.ani2 {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+
+.ani3 {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+
+.ani4 {
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
 }
 
 @-webkit-keyframes fadeIn {
