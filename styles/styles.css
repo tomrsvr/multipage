@@ -688,7 +688,7 @@ p.cta a {
   width: 1px;
   background-color: var(--color-grey1-5);
   position: absolute;
-  z-index: 98;
+  z-index: 48;
   left: -3px;
   top: 15px;
 }
@@ -723,7 +723,7 @@ p.cta a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 99;
+  z-index: 49;
 }
 
 .timeline .timeline-item .tl-icon.ota {
