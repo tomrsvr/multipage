@@ -1191,6 +1191,7 @@ section.projects {
     .typewriter {
       display: inline;
       margin-left: 5px;
+      min-height: 3em; // prevent CTA shift
       a.typewrite {
         // background:var(--typewriter-bg);
         padding: 0.6rem 0;

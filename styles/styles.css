@@ -1437,6 +1437,7 @@ section.projects {
 .contact-me .typewriter {
   display: inline;
   margin-left: 5px;
+  min-height: 3em;
 }
 
 .contact-me .typewriter a.typewrite {
