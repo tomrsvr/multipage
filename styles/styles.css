@@ -323,6 +323,7 @@ section .container {
 .header-content .person .person__container img {
   max-width: 100%;
   display: block;
+  height: auto;
 }
 
 .header-content .person .person__container .person__circle {
