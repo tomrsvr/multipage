@@ -1431,6 +1431,10 @@ section.projects {
   font-size: 0.8rem !important;
 }
 
+.cta div.typewriter {
+  min-height: 3em;
+}
+
 .contact-me {
   margin-top: 2rem;
 }

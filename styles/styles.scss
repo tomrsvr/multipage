@@ -1187,7 +1187,15 @@ section.projects {
       font-size: .8rem!important;
   }
   
-  .contact-me {
+ 
+  .cta {
+    div.typewriter {
+      min-height: 3em;
+    }
+  }
+  
+
+  .contact-me { // unused?
     margin-top: 2rem;
     .typewriter {
       display: inline;
