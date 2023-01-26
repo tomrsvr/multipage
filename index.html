@@ -34,17 +34,8 @@
     gtag('config', 'G-EM8L85Y4DG');
     </script>
 
-    <!-- Hotjar Tracking Code for https://www.tomroseveare.com -->
-    <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:3276852,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
+    <!-- Hotjar (future) -->
+
     
 </head>
 
@@ -239,7 +230,7 @@
                         </div>
                         <div class="mention hidden down">
                             <a href="/about#media">
-                                <img class="bright" src="img/ylm-logo.png" alt="Logo for Yahoo Life Magazine" width="80" height="19" loading="lazy">
+                                <img class="bright" src="img/ylm-logo.webp" alt="Logo for Yahoo Life Magazine" width="80" height="19" loading="lazy">
                             </a>
                         </div>
                         <div class="mention hidden down">
@@ -299,15 +290,83 @@
                 <h2 class="section-title">Latest stories</h2>
 
                 <span class="medium">via <img src="/img/medium-black.png" alt="Logo for Medium" width="112" height="28" loading="lazy"></span>
+                
 
-                    <div id="retainable-rss-embed" 
-                    data-rss="https://medium.com/feed/@tomroseveare"
-                    data-maxcols="3" 
-                    data-layout="slider" 
-                    data-poststyle="external" 
-                    data-readmore="Read more" 
-                    data-buttonclass="btn btn-primary medblog" 
-                    data-offset="-100"></div>
+                <div class="wrapper">
+                    <a href="https://medium.com/inbound-japan/inbound-japan-2-may-19-roundup-40f4a789e0d3?source=rss-d8b99cc9e7b4------2" target="_blank">
+                    <article>
+                        <div class="img-container">
+                            <img src="/img/blog/blog1.png" alt="" class="thumbnail" loading="lazy">
+                        </div>
+                        <div class="meta-container">
+                            <h3 class="title">Inbound Japan #2 — May '19 Roundup</h3>
+                            <span class="date">18 Jun 2019</span>
+                        </div>
+                    </article>
+                    </a>
+                    <a href="https://medium.com/inbound-japan/inbound-japan-april-2019-roundup-56dd997260c5?source=rss-d8b99cc9e7b4------2" target="_blank">
+                    <article>
+                        <div class="img-container">
+                            <img src="/img/blog/blog2.jpeg" alt="" class="thumbnail" loading="lazy">
+                        </div>
+                        <div class="meta-container">
+                            <h3 class="title">Inbound Japan — April 2019 Roundup</h3>
+                            <span class="date">10 May 2019</span>
+                        </div>
+                    </article>
+                    </a>
+                    <a href="https://medium.com/japan-travel/helping-kumamoto-with-inbound-tourism-b30834a12bb4?source=rss-d8b99cc9e7b4------2" target="_blank">
+                    <article>
+                        <div class="img-container">
+                            <img src="/img/blog/blog3.jpeg" alt="" class="thumbnail" loading="lazy">
+                        </div>
+                        <div class="meta-container">
+                            <h3 class="title">Helping Kumamoto with Inbound Tourism</h3>
+                            <span class="date">29 Mar 2019</span>
+                        </div>
+                    </article>
+                    </a>
+
+
+                    <style>
+                        .blog .wrapper {
+                            display: flex;
+                            gap: 1em;
+                            flex-grow: 33%;
+                            background: initial;
+                            padding: initial;
+                            flex-wrap: wrap;
+                        }
+                        .blog a {
+                            min-width: 0;
+                            max-width: 30%;
+                        }
+                        .blog a:hover img {
+                            box-shadow: 0 10px 20px -10px rgb(0 0 0 / 30%);
+                            transition: all .2s ease-in-out;
+                        }
+                        .blog .img-container {
+                            position: relative;
+                        }
+                        .blog img.thumbnail {
+                            max-width: 100%;
+                            border-radius: 10px;
+                        }
+
+                        .blog h3.title {
+                            padding: 0.4em 0;
+                        }
+
+                        .blog span.date {
+                            color: #5d5d5d;
+                            font-size: 1rem;
+                            font-weight: 400;
+                        }
+                    </style>
+
+
+
+                </div>
 
         </div>
     </section>
@@ -375,6 +434,5 @@
     
 
     <script defer src="app.js" ></script>
-    <script defer src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 </body>
 </html>
