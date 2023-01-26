@@ -471,8 +471,8 @@ section.appearances {
 
 section.cta {
   background-color: var(--color-true-black);
-  background-image: -webkit-gradient(linear, left top, right top, from(#000000), to(rgba(165, 165, 165, 0.4))), url("/img/tr-coffee.jpg");
-  background-image: linear-gradient(to right, #000000, rgba(165, 165, 165, 0.4)), url("/img/tr-coffee.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(#000000), to(rgba(165, 165, 165, 0.4))), url("/img/tr-coffee-front.webp"), url("/img/tr-coffee-back.webp");
+  background-image: linear-gradient(to right, #000000, rgba(165, 165, 165, 0.4)), url("/img/tr-coffee-front.webp"), url("/img/tr-coffee-back.webp");
   background-size: 900px;
   background-repeat: no-repeat;
   min-height: 41rem;

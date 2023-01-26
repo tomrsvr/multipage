@@ -406,9 +406,12 @@ section {
   &.cta {
     // padding: 6rem 0;
     background-color: var(--color-true-black);
-    background-image:
-    linear-gradient(to right, #000000, rgba(165, 165, 165, 0.4)),
-    url('/img/tr-coffee.jpg');
+    // background-image:
+    // linear-gradient(to right, #000000, rgba(165, 165, 165, 0.4)),
+    // url('/img/tr-coffee.jpg');
+    background-image: 
+        linear-gradient(to right, #000000, rgba(165, 165, 165, 0.4)),
+        url('/img/tr-coffee-front.webp'), url('/img/tr-coffee-back.webp');
     // background-size: cover;
     background-size: 900px;
     background-repeat: no-repeat;
