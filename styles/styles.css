@@ -469,16 +469,6 @@ section.appearances {
   background-color: #eee;
 }
 
-section.cta {
-  background-color: var(--color-true-black);
-  background-image: -webkit-gradient(linear, left top, right top, from(#000000), to(rgba(165, 165, 165, 0.4))), url("/img/tr-coffee-front.webp"), url("/img/tr-coffee-back.webp");
-  background-image: linear-gradient(to right, #000000, rgba(165, 165, 165, 0.4)), url("/img/tr-coffee-front.webp"), url("/img/tr-coffee-back.webp");
-  background-size: 900px;
-  background-repeat: no-repeat;
-  min-height: 41rem;
-  background-position-x: right;
-}
-
 section.cta.color {
   color: white;
 }
@@ -498,6 +488,21 @@ section.cta h3 {
 
 section.blog {
   background-color: #eee;
+}
+
+#bgimage.lazy {
+  background-image: none;
+}
+
+#bgimage {
+  background-color: var(--color-true-black);
+  background-image: -webkit-gradient(linear, left top, right top, from(#000000), to(rgba(165, 165, 165, 0.4))), url("/img/tr-coffee-front.webp"), url("/img/tr-coffee-back.webp");
+  background-image: linear-gradient(to right, #000000, rgba(165, 165, 165, 0.4)), url("/img/tr-coffee-front.webp"), url("/img/tr-coffee-back.webp");
+  max-width: 100%;
+  min-height: 41rem;
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 
 .media {
@@ -2553,7 +2558,7 @@ h3.subtitle {
   .atf .image .avatar {
     max-width: 8rem;
   }
-  section.cta {
+  #bgimage.cta {
     background-size: 300px;
     background-repeat: no-repeat;
     min-height: 25rem;
@@ -2661,12 +2666,12 @@ h3.subtitle {
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
   }
-  section.cta {
+  #bgimage.cta {
     background-size: cover;
     background-position-x: 0.6em;
     min-height: 90svh;
   }
-  section.cta h3 {
+  #bgimage.cta h3 {
     font-size: 1.8rem;
     margin-top: 2em;
     max-width: 6em;

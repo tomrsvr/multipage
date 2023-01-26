@@ -405,18 +405,18 @@ section {
   }
   &.cta {
     // padding: 6rem 0;
-    background-color: var(--color-true-black);
+    // background-color: var(--color-true-black);
     // background-image:
     // linear-gradient(to right, #000000, rgba(165, 165, 165, 0.4)),
     // url('/img/tr-coffee.jpg');
-    background-image: 
-        linear-gradient(to right, #000000, rgba(165, 165, 165, 0.4)),
-        url('/img/tr-coffee-front.webp'), url('/img/tr-coffee-back.webp');
+    // background-image: 
+    //     linear-gradient(to right, #000000, rgba(165, 165, 165, 0.4)),
+    //     url('/img/tr-coffee-front.webp'), url('/img/tr-coffee-back.webp');
     // background-size: cover;
-    background-size: 900px;
-    background-repeat: no-repeat;
-    min-height: 41rem;
-    background-position-x: right;
+    // background-size: 900px;
+    // background-repeat: no-repeat;
+    // min-height: 41rem;
+    // background-position-x: right;
     &.color {
       color: white;
     }
@@ -434,6 +434,23 @@ section {
   &.blog {
     background-color: #eee;
   }
+}
+
+// Ref https://css-tricks.com/the-complete-guide-to-lazy-loading-images/#chapter-4-lazy-loading-css-background-images
+
+#bgimage.lazy {
+  background-image: none;
+}
+#bgimage {
+  background-color: var(--color-true-black);
+  background-image: 
+        linear-gradient(to right, #000000, rgba(165, 165, 165, 0.4)),
+        url('/img/tr-coffee-front.webp'), url('/img/tr-coffee-back.webp');
+  max-width: 100%;
+  min-height: 41rem;
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 
 .media {
