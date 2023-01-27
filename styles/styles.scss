@@ -1879,32 +1879,12 @@ img.blob3 {
 // }
 
 
-$delay: 200ms;
+$delay: 100ms;
 @for $i from 1 to 7 {
   .mention:nth-child(n + #{$i}) {
     transition-delay: ($delay*$i + 100ms);
   }
 }
-
-
-// .mention:nth-child(2) {
-//   transition-delay: 300ms;
-// }
-// .mention:nth-child(3) {
-//   transition-delay: 600ms;
-// }
-// .mention:nth-child(4) {
-//   transition-delay: 900ms;
-// }
-// .mention:nth-child(5) {
-//   transition-delay: 1200ms;
-// }
-// .mention:nth-child(6) {
-//   transition-delay: 1500ms;
-// }
-// .mention:nth-child(7) {
-//   transition-delay: 1800ms;
-// }
 
 
   @import './about', './media';

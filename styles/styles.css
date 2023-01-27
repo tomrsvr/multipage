@@ -2232,33 +2232,33 @@ img.blob3 {
 }
 
 .mention:nth-child(n + 1) {
+  -webkit-transition-delay: 200ms;
+          transition-delay: 200ms;
+}
+
+.mention:nth-child(n + 2) {
   -webkit-transition-delay: 300ms;
           transition-delay: 300ms;
 }
 
-.mention:nth-child(n + 2) {
+.mention:nth-child(n + 3) {
+  -webkit-transition-delay: 400ms;
+          transition-delay: 400ms;
+}
+
+.mention:nth-child(n + 4) {
   -webkit-transition-delay: 500ms;
           transition-delay: 500ms;
 }
 
-.mention:nth-child(n + 3) {
-  -webkit-transition-delay: 700ms;
-          transition-delay: 700ms;
-}
-
-.mention:nth-child(n + 4) {
-  -webkit-transition-delay: 900ms;
-          transition-delay: 900ms;
-}
-
 .mention:nth-child(n + 5) {
-  -webkit-transition-delay: 1100ms;
-          transition-delay: 1100ms;
+  -webkit-transition-delay: 600ms;
+          transition-delay: 600ms;
 }
 
 .mention:nth-child(n + 6) {
-  -webkit-transition-delay: 1300ms;
-          transition-delay: 1300ms;
+  -webkit-transition-delay: 700ms;
+          transition-delay: 700ms;
 }
 
 section.hero {
@@ -2419,9 +2419,6 @@ h3.subtitle {
   .main-title h2 {
     font-size: 2rem;
   }
-  .main-title h2 span {
-    font-size: 2.5rem;
-  }
   .main-title h2 .bg-text {
     font-size: 2.5rem;
   }
@@ -2476,9 +2473,6 @@ h3.subtitle {
     font-size: 4vw;
     letter-spacing: 17px;
     margin-left: 0;
-  }
-  .main-title h2 span {
-    font-size: 4rem;
   }
   .main-title h2 .bg-text {
     font-size: 5rem;

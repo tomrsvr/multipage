@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="I'm a Tokyo-based Brit working in the creative web industry and focused on crafting memorable, easy-to-use digital experiences.">
+    <meta name="description" content="Tom is a British creative leader based in Tokyo, inspiring teams to craft memorable and easy-to-use digital experiences.">
     
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F16232" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
@@ -19,10 +19,82 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="font" onload="this.onload=null;this.rel='stylesheet'" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato:wght@300;400;700;900&family=Unica+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Unica+One&display=swap" rel="stylesheet">
 
 
     <!-- Critical CSS (TO DO) -->
+
+
+    <style>
+
+    .wrapper {
+        padding: 24px;
+        background: var(--color-white);
+    }
+
+    /*HP only*/
+    .catch {
+        font-family: 'Unica One'; 
+        text-transform: uppercase;
+        font-size: 2.4rem;
+        font-weight: 300;
+        line-height: 1.6;
+        margin: 1rem 0 1rem 0;
+    }
+
+    mark {
+        --mark-color: #f8db75;
+        --mark-skew: 0.25em;
+        --mark-height: 1em;
+        --mark-overlap: 0.3em;
+
+        display: inline-block;
+
+        margin-inline: calc(var(--mark-overlap) * -1);
+        padding-inline: var(--mark-overlap);
+
+        background-color: transparent;
+        background-image:
+            linear-gradient(
+                to bottom right,
+                transparent 50%,
+                var(--mark-color) 50%
+            ),
+            linear-gradient(
+                var(--mark-color),
+                var(--mark-color)
+            ),
+            linear-gradient(
+                to top left,
+                transparent 50%,
+                var(--mark-color) 50%
+            )
+        ;
+        background-size:
+            var(--mark-skew) var(--mark-height),
+            calc(100% - var(--mark-skew) * 2 + 1px) var(--mark-height),
+            var(--mark-skew) var(--mark-height)
+        ;
+        background-position:
+            left center,
+            center,
+            right center
+        ;
+        background-repeat: no-repeat;
+        color: inherit;
+
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+    }
+
+    /* .catch br {
+        display: none;
+    } */
+    /*end of HP only*/
+
+    </style>
+
+
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EM8L85Y4DG"></script>
@@ -58,10 +130,6 @@
             </svg>
                 
         </a>
-          <!-- <ul class="topnav">
-            <li class="topnav__item topnav__item--active"><a href="/">Work</a></li>
-            <li class="topnav__item "><a href="about">About</a></li>
-          </ul> -->
         </nav>
 
 
@@ -80,33 +148,19 @@
             <li>
                 <a href="/about">About me</a>
             </li>
-            <!-- <li>
-                <a href="#">Speaker &amp; Writer</a>
-            </li> -->
-            <!-- <li>
-                <a href="#">Work</a>
-            </li> -->
             <li>
                 <a href="/contact">Contact</a>
             </li>
             <li>
-                <a href="https://medium.com/@tomroseveare" target="_blank">Blog <i class="fab fa-medium"></i></a>
+                <a href="https://medium.com/@tomroseveare" target="_blank">Blog</a>
             </li>
         </ul>
     </nav>
 
     <main>
     <section class="header-content" id="home">
-            <!-- <div class="left-header">
-                <div class="h-shape"></div>
-                <div class="image">
-                    <img src="img/hero-bg.webp" alt="Tom Roseveare">
-                </div>
-            </div>   -->
-        
             <div class="container">
                 <div class="atf">
-
                     <div class="person anix ani1">
                         <div class="person__container">
                             <img src="img/tom-ai.webp" alt="Friendly AI-generated likeness of Tom Roseveare" class="person__img" width="192" height="188" draggable="false">
@@ -118,65 +172,7 @@
                     <h3 class="catch anix ani2">Designing moments <span>that matter</span><mark>in travel</mark></h3>
 
                     <style>
-                        .catch {
-                            /* font-family: 'Comfortaa', cursive; */
-                            font-family: 'Unica One'; /* looks good with Inconsolata */
-                            text-transform: uppercase;
-                            font-size: 2.4rem;
-                            font-weight: 300;
-                            line-height: 1.6;
-                            margin: 1rem 0 1rem 0;
-                        }
-
-                        mark {
-                            --mark-color: #f8db75;
-                            --mark-skew: 0.25em;
-                            --mark-height: 1em;
-                            --mark-overlap: 0.3em;
-
-                            display: inline-block;
-
-                            margin-inline: calc(var(--mark-overlap) * -1);
-                            padding-inline: var(--mark-overlap);
-
-                            background-color: transparent;
-                            background-image:
-                                linear-gradient(
-                                    to bottom right,
-                                    transparent 50%,
-                                    var(--mark-color) 50%
-                                ),
-                                linear-gradient(
-                                    var(--mark-color),
-                                    var(--mark-color)
-                                ),
-                                linear-gradient(
-                                    to top left,
-                                    transparent 50%,
-                                    var(--mark-color) 50%
-                                )
-                            ;
-                            background-size:
-                                var(--mark-skew) var(--mark-height),
-                                calc(100% - var(--mark-skew) * 2 + 1px) var(--mark-height),
-                                var(--mark-skew) var(--mark-height)
-                            ;
-                            background-position:
-                                left center,
-                                center,
-                                right center
-                            ;
-                            background-repeat: no-repeat;
-                            color: inherit;
-
-                            -webkit-box-decoration-break: clone;
-                            box-decoration-break: clone;
-                        }
-
-                        .catch br {
-                            display: none;
-                        }
-
+                        
                     </style>
 
                         <div class="accent anix ani2" aria-hidden="true"></div>
@@ -184,31 +180,24 @@
                         <div class="intro anix ani3">
                             <h1>I'm <ruby class="name"><rb>Tom</rb><rt lang="ja">トム</rt></ruby> <ruby class="name"><rb> Roseveare</rb><rt lang="ja">ローズヴィア</rt></ruby>,</h1>
                             <p class="intro">a British creative leader based in Tokyo, inspiring teams to craft memorable and easy-to-use digital experiences.</h2>
-                            <!-- Tokyo-based Brit working in the creative web industry-->
                         </div>
 
                         <div class="hero-cta anix ani4">
                             <div class="current">
                                 <p class="label">Currently:
-
                                     <div class="position">
                                         <span class="role">Creative Director</span>
                                         <hr>
                                         <span class="firm">@ Japan Travel</span>
                                     </div>
-
                                 </p>
                             </div>
                             <div class="view">
                                 <a class="scroll" href="#contentStart">View more</a>
                             </div>
                         </div>
-
-                        
-
-                        
-                    </div>
                     
+                    </div>                   
          
                 </div><!--------   mob-ATF  --------------->
                 
@@ -218,8 +207,6 @@
         <div class="container"> 
 
             <h2 class="section-title">In the media</h2>
-
-                <!-- <div class="media-mentions"> -->
 
                     <div class="media">
                     
@@ -293,7 +280,7 @@
                 
 
                 <div class="wrapper">
-                    <a href="https://medium.com/inbound-japan/inbound-japan-2-may-19-roundup-40f4a789e0d3?source=rss-d8b99cc9e7b4------2" target="_blank">
+                    <a class="card" href="https://medium.com/inbound-japan/inbound-japan-2-may-19-roundup-40f4a789e0d3?source=rss-d8b99cc9e7b4------2" target="_blank">
                     <article>
                         <div class="img-container">
                             <img src="/img/blog/blog1.webp" alt="" class="thumbnail" loading="lazy">
@@ -304,7 +291,7 @@
                         </div>
                     </article>
                     </a>
-                    <a href="https://medium.com/inbound-japan/inbound-japan-april-2019-roundup-56dd997260c5?source=rss-d8b99cc9e7b4------2" target="_blank">
+                    <a class="card" href="https://medium.com/inbound-japan/inbound-japan-april-2019-roundup-56dd997260c5?source=rss-d8b99cc9e7b4------2" target="_blank">
                     <article>
                         <div class="img-container">
                             <img src="/img/blog/blog2.webp" alt="" class="thumbnail" loading="lazy">
@@ -315,7 +302,7 @@
                         </div>
                     </article>
                     </a>
-                    <a href="https://medium.com/japan-travel/helping-kumamoto-with-inbound-tourism-b30834a12bb4?source=rss-d8b99cc9e7b4------2" target="_blank">
+                    <a class="card" href="https://medium.com/japan-travel/helping-kumamoto-with-inbound-tourism-b30834a12bb4?source=rss-d8b99cc9e7b4------2" target="_blank">
                     <article>
                         <div class="img-container">
                             <img src="/img/blog/blog3.webp" alt="" class="thumbnail" loading="lazy">
@@ -340,7 +327,7 @@
                         .blog a {
                             min-width: 0;
                             width: 280px;
-                            /* max-width: 30%; */
+                            margin-bottom: 1.4em;
                         }
                         .blog a:hover img {
                             box-shadow: 0 10px 20px -10px rgb(0 0 0 / 30%);
