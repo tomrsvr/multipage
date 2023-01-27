@@ -57,7 +57,8 @@ Check:
     --typewriter-bg: #fff;
     --outline-bg: #f6f5f4;
     --role-border: transparent;
-    --mail-line: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    // --mail-line: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    --mail-line: linear-gradient(64deg, #75c3ff 0%, #ff5c9a 100%);
     --award-line: linear-gradient(120deg, #f05917 0%, #ff0060 100%);
     --default-transition: all .4s ease-in-out;
 }
@@ -80,7 +81,7 @@ Check:
   --typewriter-bg: #2b2b2b;
   --outline-bg: transparent;
   --role-border: #4f4f4f;
-  --mail-line: linear-gradient(120deg, #b64717 0%, #9900a3 100%);
+  --mail-line: linear-gradient(64deg, #75c3ff 0%, #ff5c9a 100%);
   --color-jt: #871b20;
   .header-content .right-header .media .bright {
     filter: brightness(100);
@@ -93,6 +94,12 @@ Check:
 html {
   scroll-padding-top: 100px;
   scroll-behavior: smooth;
+}
+
+:focus {
+  outline: 3px dotted var(--color-secondary);
+  outline-offset: 2px;
+  border-radius: 5px;
 }
 
 body {
@@ -1641,7 +1648,7 @@ button#burger:focus {
         z-index: 5;
         transform-origin: top;
         text-transform: uppercase;
-        width: 1rem;
+        max-width: 4rem;
         font-weight: 300;
         font-size: 1rem;
         letter-spacing: 1px;
@@ -1653,7 +1660,7 @@ button#burger:focus {
           display: block;
           position: absolute;
           top: 0;
-          left: -200%;
+          left: -25%;
           transform: scaleX(0);
           animation: 3s ease 1.5s normal infinite scroll;
           pointer-events: none;
