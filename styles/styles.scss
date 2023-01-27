@@ -18,6 +18,9 @@ Check:
 
 */
 
+
+
+
 :root {
     --color-primary-tutorial: #191d2b;
     --color-primary: #f6f5f4;  
@@ -1495,6 +1498,11 @@ section.projects {
 
 .burger:before {
 	transform: translateY(-16px) skew(-10deg);
+}
+
+button#burger:focus {
+  outline: 3px dotted var(--color-secondary);
+  outline-offset: 2px;
 }
 
 /* Toggle State part */
